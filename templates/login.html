@@ -1,0 +1,29 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+{% load static %}
+    <div class="container-fluid row">
+
+        <div class="row col-6"> 
+            <img src="{% static 'images/school-image.jpg' %}" class="img-fluid max-width:100% height:auto" alt="School"> 
+        </div>
+
+        <div class="row col-6"> 
+
+            <div>
+                <div> Menu bar</div>
+            </div>
+
+            <div>
+                <div>Form</div>
+            </div>
+
+            <div>
+                <div>Footer</div>
+            </div>
+        </div>
+            
+    </div>
+    
+{% endblock content %}
